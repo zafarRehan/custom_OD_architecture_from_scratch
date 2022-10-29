@@ -155,14 +155,22 @@ which calculates the model mAP. I calculated mAP@0.5 and here are the results:
 The results doesn't looks good enough but it was result of the simple model with just 3.7M trainable parameters trained for 100 epochs at 100 iterations each.
 Remember this repo is not about creating the best model (that may come later), but it's to give you the starting point to test your own Architecture for Object Detection. I learnt many things building it and I am sure you will too.
 
+
+## Usage
+
+Goto the <a href="full_object_detection_code.ipynb">Notebook</a>, I have tried to document it as good as I can.
+Open the notebook in colab and click on Runtime->Run all and watch a new model being trained from scratch.
+
+
 ## What Next?
 
 If you really want to understand that how exactly Single Stage Object Detection works or how Object Detection works in general, spend some time with this Notebook, and also try your own Architecture and find out how well that works. 
 
-There is Data Generator in place<br/>
-There is Anchor Generator in place<br/>
-There are Losses and Metrices in place<br/>
-There is Inference and Visualization in place<br/>
+1. There is Data Generator in place<br/>
+2. There is Anchor Generator in place<br/>
+3. There are Losses and Metrices in place<br/>
+4. There is Inference and Visualization in place<br/>
+5. There is Model Evaluation in place<br/>
 
 Now all you need is to dig deep into it and create your own Object Detection Architecture.
 
