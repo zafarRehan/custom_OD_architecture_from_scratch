@@ -1,0 +1,3 @@
+penguin 86 10 166 109
+elephant 20 195 113 260
+elephant 105 217 212 291

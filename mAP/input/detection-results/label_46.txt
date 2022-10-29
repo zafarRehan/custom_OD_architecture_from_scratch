@@ -1,0 +1,4 @@
+elephant 0.7065 76 34 129 70
+elephant 0.67 76 34 129 70
+elephant 0.841 75 33 129 69
+elephant 0.6196 74 35 129 70

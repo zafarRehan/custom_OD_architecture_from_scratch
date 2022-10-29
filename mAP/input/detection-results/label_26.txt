@@ -1,0 +1,6 @@
+elephant 0.8784 9 208 69 251
+elephant 0.976 13 210 71 250
+elephant 0.9946 12 212 70 253
+elephant 0.988 12 212 69 251
+elephant 0.993 6 209 66 250
+elephant 0.7866 11 210 68 251
