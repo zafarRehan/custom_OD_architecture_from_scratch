@@ -144,3 +144,34 @@ along with 4 sets of one hot encoded class and 4 sets of bounding boxes per imag
 
 ### SAMPLE OUTPUT
 <img src="sample_output_viz.png" width=700/>
+
+
+## Performance
+
+For model performance evaluation I used this repo: https://github.com/Cartucho/mAP/tree/master/input/images-optional
+which calculates the model mAP. I calculated mAP@0.5 and here are the results:
+<img src="mAP.png" width=700/>
+
+The results doesn't looks good enough but it was result of the simple model with just 3.7M trainable parameters trained for 100 epochs at 100 iterations each.
+Remember this repo is not about creating the best model (that may come later), but it's to give you the starting point to test your own Architecture for Object Detection. I learnt many things building it and I am sure you will too.
+
+## What Next?
+
+If you really want to understand that how exactly Single Stage Object Detection works or how Object Detection works in general, spend some time with this Notebook, and also try your own Architecture and find out how well that works. 
+
+There is Data Generator in place
+There is Anchor Generator in place 
+There are Losses and Metrices in place 
+There is Inference and Visualization in place
+
+Now all you need is to dig deep into it and create your own Object Detection Architecture.
+
+Some tips to improve performance of model are:
+
+1. Introduce more layers i.e. deepen the architecture
+2. Introduce Dropout Layers
+3. Introduce skip connections, depth wise convulations etc.
+4. Do some reserach on your own.
+
+That's all folks hope you learn something from it. Please leave a star if it helped in anyway. 
+THANKS
