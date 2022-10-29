@@ -8,12 +8,14 @@ The model is builts using Tensorflow and Keras
 
 
 ## Classes
-The model classifies 16 different categories which includes 15 animals depicted below and 1 background class
+The model classifies 16 different categories which includes 15 animals shown below and 1 background class
 <img src="all_classes.png" width=700/>
 
 ## Architecture
 The model architecture is a rather simple one but works good enough to begin with.
 <img src="model architecture.png" width=700/>
+
+### Model Summary
 
     Model: "model_1"
     __________________________________________________________________________________________________
@@ -131,3 +133,14 @@ The model architecture is a rather simple one but works good enough to begin wit
     Trainable params: 3,768,592
     Non-trainable params: 1,504
     __________________________________________________________________________________________________
+
+
+## Input and Output
+Input is an Image of shape 320 x 320 x 3 for inferencing,
+along with 4 sets of one hot encoded class and 4 sets of bounding boxes per image in case of training (4 is the the value I used it can be more or less doesnt matters)
+
+<b>SAMPLE INPUT</b>
+<img src="sample_input_viz.png" width=700/>
+
+<b>SAMPLE OUTPUT</b>
+<img src="sample_output_viz.png" width=700/>
