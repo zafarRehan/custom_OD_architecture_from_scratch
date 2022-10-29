@@ -159,10 +159,10 @@ Remember this repo is not about creating the best model (that may come later), b
 
 If you really want to understand that how exactly Single Stage Object Detection works or how Object Detection works in general, spend some time with this Notebook, and also try your own Architecture and find out how well that works. 
 
-There is Data Generator in place
-There is Anchor Generator in place 
-There are Losses and Metrices in place 
-There is Inference and Visualization in place
+There is Data Generator in place<br/>
+There is Anchor Generator in place<br/>
+There are Losses and Metrices in place<br/>
+There is Inference and Visualization in place<br/>
 
 Now all you need is to dig deep into it and create your own Object Detection Architecture.
 
