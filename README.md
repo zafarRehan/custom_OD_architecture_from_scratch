@@ -139,8 +139,8 @@ The model architecture is a rather simple one but works good enough to begin wit
 Input is an Image of shape 320 x 320 x 3 for inferencing,
 along with 4 sets of one hot encoded class and 4 sets of bounding boxes per image in case of training (4 is the the value I used it can be more or less doesnt matters)
 
-<b>SAMPLE INPUT</b>
+### SAMPLE INPUT
 <img src="sample_input_viz.png" width=700/>
 
-<b>SAMPLE OUTPUT</b>
+### SAMPLE OUTPUT
 <img src="sample_output_viz.png" width=700/>
