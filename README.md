@@ -148,7 +148,7 @@ along with 4 sets of one hot encoded class and 4 sets of bounding boxes per imag
 
 ## Performance
 
-For model performance evaluation I used this repo: https://github.com/Cartucho/mAP/tree/master/input/images-optional
+For model performance evaluation I used this repo: https://github.com/Cartucho/mAP
 which calculates the model mAP. I calculated mAP@0.5 and here are the results:
 <img src="mAP.png" width=700/>
 
